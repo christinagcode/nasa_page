@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerimg {
+    margin: 10px auto 20px auto;
+    display: block;
+    width: 850px;
+    height: 450px;
+}
+
+.logo {
+    font-family: 'Heebo', sans-serif;
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    position: relative;
+    color: white;
+}
+
+main {
+    height: 324px;
+    width: 850px;
+    background-color: #DCDCDC;
+    margin: 10px auto 20px auto;
+    display: flex;
+}
+
+section {
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+label {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
